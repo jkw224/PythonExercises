@@ -7,3 +7,4 @@ def get_user_input(position):
 # Main
 position = ['first', 'second']
 num_one = (get_user_input(position[0]))
+
