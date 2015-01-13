@@ -1,40 +1,44 @@
+# how to write a good exception wo
+import re
+
 def main():
     print("***************************\n EXERCISE 4 - MENU\n***************************\n")
     print("1. Write input to file\n2. Write input to screen\n3. Quit\n")
     user_choice = input("***************************\nEnter your choice [1-3] : ")
 
-    if user_choice is not isinstance(user_choice, int):
-        user_response = input_checker(user_choice)
+    # only prompt for input if user enters 1 or 2
+    if user_choice == ("1" or "2"):
+        user_input = input("Enter a phrase: ")
 
-    user_input = input("Enter a input: ")
+    # if user enters 1, prompt for filename to write to
+    if user_choice == ("1"):
+        name_of_file = input("What would you like to name your file? ")
 
-    if user_response == str(1):
+        # Using regular expression to make sure, the filename has valid characters
+        while not re.match("^[a-zA-Z0-9_]*$", name_of_file):
+            name_of_file = input("Unsupported filename character. Please enter another filename: ")
+
+        # Append .txt to filename
+        file = name_of_file + ".txt"
+
+
+    # Output to user input 1, 2, or 3
+    if user_choice is "1":
         # write data to a file
-        file = open("ex4_user_input_file", 'a')
-        file.append(user_input)
-        print("Your file now reads: " + file)
-    elif user_response == str(2):
+        with open(file, "a+") as new_file:
+            new_file.write(user_input)
+        with open(file, "r") as f:
+            for line in f:
+                print(line)
+    elif user_choice == str(2):
         # print data to screen
         print("Printing your input...\n" + user_input)
-    else:
+    elif user_choice == "3":
         # Quit
         print("Quitting program...")
         print("fin")
-
-
-
-def input_checker(user_response):
-    while True:
-        if isinstance(user_response, str):
-            user_response = input("**Error** Need to enter a number: ")
-            continue
-        elif isinstance(user_response, float):
-            user_response = input("**Error** Enter a non-decimal number: ")
-            continue
-        else:
-            break
-
-    return user_response
+    else:
+        print("Please enter 1, 2, or 3")
 
 
 main()
