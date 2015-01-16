@@ -2,19 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f7014e5-4c7e-408c-85b3-55aef2bef1bf" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ex4/!winr.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ex4/.argg!targg!xargg!t" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ex4/.new_filetnew_filexnew_filet" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ex4/asrt.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ex4/file_name.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ex4/jft.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ex4/jkj.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ex4/oaiestn.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ex4/trsetnahsr.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ex4/uyvuv.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ex3/ex3.py" afterPath="$PROJECT_DIR$/ex3/ex3.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ex5/ex5.py" afterPath="$PROJECT_DIR$/ex5/ex5.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ex5/test_5.py" afterPath="$PROJECT_DIR$/ex5/test_5.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PythonExercises.iws" />
@@ -86,7 +73,7 @@
       <file leaf-file-name="written_file.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ex4/written_file.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="498">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="496">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -729,7 +716,13 @@
       <option name="project" value="LOCAL" />
       <updated>1421355715155</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="ex4: deleted junk .txt files (created from my file i/o)">
+      <created>1421439785782</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1421439785782</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -746,12 +739,13 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290653" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2496318" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27098674" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32822478" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3290653" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -763,7 +757,6 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -818,7 +811,8 @@
     <MESSAGE value="ex3, currently on ex4 (working on option1: writing to file)" />
     <MESSAGE value="finished ex4py, created test_ex5.py, blank ex5.py" />
     <MESSAGE value="ex8: arrays, maps, recursion / ex5: unpacking" />
-    <option name="LAST_COMMIT_MESSAGE" value="ex8: arrays, maps, recursion / ex5: unpacking" />
+    <MESSAGE value="ex4: deleted junk .txt files (created from my file i/o)" />
+    <option name="LAST_COMMIT_MESSAGE" value="ex4: deleted junk .txt files (created from my file i/o)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
