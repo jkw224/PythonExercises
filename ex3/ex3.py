@@ -2,7 +2,6 @@
 # 1) Where does "none" come from in output of type test?
 # 2) How to exit try/except loop in main() if I enter a string (e.g. "r")
 
-
 def main():
     mph = input("Please enter a speed in miles per hour!: ")
 

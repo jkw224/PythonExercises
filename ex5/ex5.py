@@ -17,11 +17,12 @@ def random_string_gen(num):
 
 def string_count():
     with open("exercise_five.dat", "r") as ex5:
-    letters_list = []
     test_characters = string.ascii_lowercase + string.ascii_uppercase + string.digits
-    for i in range(len(test_characters))
-        if test_characters[i] =
-
+    for i in range(len(test_characters)):
+        occurance_count = 0
+        if test_characters[i] ==
+            occurance_count += 1
+            print("%s ==> %d" % (test_characters[i], occurance_count))
 
 how_many_strings = input("How many random strings do you want printed out?")
 while True:
